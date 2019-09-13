@@ -1,39 +1,41 @@
 export const exhibitionsList = [
   {
-    image: 'exhibitions/detritos.png',
-    name: 'Sistemas e processos, 2019',
-    paragraph1: 'sistemasp1',
-    paragraph2: 'sistemasp2',
+    image: 'exhibitions/florestaDia.jpg',
+    name: 'Um lugar para estar, 2019',
+    paragraph1: 'lugarp1',
+    paragraph2: 'lugarp2',
+    paragraph3: 'lugarp3',
+    paragraph4: 'lugarp4',
     period: '2019',
-    route: 'sistemas-e-processos',
+    route: 'um-lugar-para-estar',
     images: [
       {
-        src: 'detritos.png'
+        src: 'florestaDia.jpg'
       }
     ]
   },
   {
-    image: 'exhibitions/luz_viva.png',
-    name: 'Partículas de Luz, 2018',
+    image: 'exhibitions/mundoAberto1.png',
+    name: 'Mundo Aberto, 2018',
     paragraph1: 'particulas1',
     paragraph2: 'particulas2',
     period: '2018',
     route: 'particulas-de-luz',
     images: [
       {
-        src: 'luz_viva.png'
+        src: 'mundoAberto1.png'
       }
     ] 
   },
   {
-    image: 'exhibitions/microparticulas.png',
-    name: 'Micropartículas, 2017',
+    image: 'exhibitions/paraiso1.png',
+    name: 'Paraíso Tropical, 2017',
     paragraph1: 'micro1',
     period: '2017',
     route: 'microparticulas',
     images: [
       {
-        src: 'microparticulas.png'
+        src: 'paraiso1.png'
       }
     ] 
   }

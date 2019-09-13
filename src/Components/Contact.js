@@ -28,7 +28,7 @@ const ContactWrapper = styled.div`
 function Contact( props ) {
   return (
     <ContactWrapper>
-      <a className="mail" href="mailto:contact@andres-stephanou.com" target="_top">contact@andres-stephanou.com</a>
+      <a className="mail" href="mailto:contact@lucasalvescosta.com" target="_top">contact@lucasalvescosta.com</a>
     </ContactWrapper>
   )
 }

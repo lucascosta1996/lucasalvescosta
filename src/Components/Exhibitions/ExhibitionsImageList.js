@@ -28,13 +28,17 @@ const ExhibitionsImagesWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
+    @media (min-width: 1367px) {
+      padding: 30px;
+    }
+
     @media (max-width: 1024px) {
       padding-bottom: 30px;
     }
     
     .show {
       margin-bottom: 15px;
-      max-width: 500px;
+      max-width: 620px;
       position: relative;
 
       @media (max-width: 520px) {
@@ -44,29 +48,21 @@ const ExhibitionsImagesWrapper = styled.div`
   
       img {
         display: block;
-        padding-right: 40px;
-        max-width: 500px;
+        max-width: 600px;
         transition: all .3s ease;
+
+        @media (min-width: 1367px) {
+          max-width: 620px;
+        }
 
         @media (max-width: 520px) {
           max-width: 100%;
+          padding-right: 0;
           width: 100%;
         }
-      }
-  
-      .hover {
-        align-items: center;
-        font-family: 'Source Sans Pro', sans-serif;
-        display: flex;
-        height: 100%;
-        position:absolute;
-        top: 0;
-        transition: all .3s ease;
-        width: 100%;
-        z-index: 1;
-  
+
         &:hover {
-          background-color: rgba(120, 120, 120, 0.8);
+          opacity: .7;
         }
       }
     }
@@ -78,7 +74,6 @@ const ExhibitionsImagesWrapper = styled.div`
     margin: auto;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
     transition: all .3s ease;
 
     &:hover {
@@ -98,7 +93,6 @@ function ExhibitionsImagesList (props) {
               to={`/exhibitions/${item.route}`}
             >
               <img src={require(`../../assets/${item.image}`)} />
-              <div className="hover" />
             </Link>
             <Link
               className="showTitle"

@@ -38,7 +38,6 @@ const NavigationWrapper = styled.nav`
     }
 
     @media ( max-width: 520px ) {
-      font-size: 24px!important;
       margin-left: 0;
     }
   }
@@ -46,11 +45,20 @@ const NavigationWrapper = styled.nav`
   .title {
     a {
       font-size: 18px;
+
+      @media ( max-width: 520px ) {
+        padding-bottom: 4px;
+        padding-left: 20px;
+      }
     }
   }
 
   .link {
     font-size: 16px;
+
+    @media ( max-width: 520px ) {
+      padding: 2px 0;
+    }
   }
 
   .title {
@@ -87,7 +95,7 @@ const NavigationWrapper = styled.nav`
   .close {
     position: fixed;
     right: 23px;
-    top: 30px;
+    top: 28px;
     width: 18px;
   }
 `
@@ -96,8 +104,8 @@ const VeganBurguerIcon = styled.div`
   cursor: pointer;
   font-size: 22px;
   position: absolute;
-  right: 20px;
-  top: 23px;
+  right: 22px;
+  top: 19px;
 
   @media ( min-width: 520px ) {
     display: none;
