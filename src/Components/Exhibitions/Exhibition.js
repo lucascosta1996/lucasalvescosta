@@ -70,6 +70,7 @@ function Exhibition (props) {
     .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
     fourthParagraph.current.innerHTML = fourthParagraph.current.innerHTML
     .replace(/A incidência de luz em um ambiente virtual/g, `<i>A incidência de luz em um ambiente virtual</i>`)
+    .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
   });
 
   return (
