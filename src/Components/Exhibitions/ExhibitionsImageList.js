@@ -9,7 +9,10 @@ const ExhibitionsImagesWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 0 35px;
+  left: 0;
+  padding: 80px 35px 0;
+  right: 0;
+  top: 0;
 
   @media (max-width: 1024px) {
     flex-direction: column;

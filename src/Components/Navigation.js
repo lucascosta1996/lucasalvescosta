@@ -16,6 +16,11 @@ const NavigationWrapper = styled.nav`
   text-align: left;
   z-index: 2;
 
+  @media ( min-width: 768px ) {
+    position: fixed;
+    width: 100%;
+  }
+
   @media ( max-width: 520px ) {
     flex-direction: column;
     height: auto;
@@ -54,7 +59,7 @@ const NavigationWrapper = styled.nav`
   }
 
   .link {
-    font-size: 16px;
+    font-size: 14px;
 
     @media ( max-width: 520px ) {
       padding: 2px 0;
@@ -117,7 +122,7 @@ const OptionsWrapper = styled.section`
     color: #000;
     cursor: pointer;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding-left: 35px;
     padding-right: 25px;
