@@ -84,10 +84,12 @@ const NavigationWrapper = styled.nav`
   }
 
   .navigation {
+    align-items: flex-end;
     display: flex;
     padding-left: 25px;
 
     @media ( max-width: 520px ) {
+      align-items: baseline;
       ${props => !props.isOpened && `display: none;`}
     }
 

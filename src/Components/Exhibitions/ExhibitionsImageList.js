@@ -17,7 +17,7 @@ const ExhibitionsImagesWrapper = styled.div`
   @media (max-width: 1024px) {
     flex-direction: column;
     top: 280px;
-    padding: 50px 0 0;
+    padding: 116px 0 0;
     position: initial;
   }
 
@@ -31,8 +31,8 @@ const ExhibitionsImagesWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 1367px) {
-      padding: 30px;
+    @media (min-width: 1025px) {
+      padding: 15px;
     }
 
     @media (max-width: 1024px) {
