@@ -39,7 +39,7 @@ const NavigationWrapper = styled.nav`
     transition: .3s all ease;
 
     &:hover {
-      text-decoration: underline;
+      color: #7DE88D;
     }
 
     @media ( max-width: 520px ) {
@@ -80,7 +80,7 @@ const NavigationWrapper = styled.nav`
   }
 
   .active {
-    text-decoration: underline;
+    color: #7DE88D;
   }
 
   .navigation {

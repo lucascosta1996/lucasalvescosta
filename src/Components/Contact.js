@@ -18,9 +18,10 @@ const ContactWrapper = styled.div`
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-decoration: none;
+    transition: all .3s ease;
 
     &:hover {
-      text-decoration: underline;
+      color: #7DE88D;
     }
   }
 `

@@ -50,13 +50,18 @@ const ExhibitionWrapper = styled.div`
         color: #6278DC;
         text-align: left;
         text-decoration: none;
+        transition: all .3s ease;
+
+        &:hover {
+          color: #6278FF;
+        }
       }
     }
   }
 
   .images {
     padding-bottom: 120px;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 100%;
 
     @media (max-width: 520px) {

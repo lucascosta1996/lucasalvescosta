@@ -95,7 +95,7 @@ function ExhibitionsImagesList (props) {
               className="show"
               to={`/exhibitions/${item.route}`}
             >
-              <img src={require(`../../assets/${item.image}`)} />
+              <img alt={ item.alt } src={require(`../../assets/${item.image}`)} />
             </Link>
             <Link
               className="showTitle"
