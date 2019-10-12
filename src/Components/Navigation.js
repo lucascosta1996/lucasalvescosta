@@ -10,7 +10,7 @@ const NavigationWrapper = styled.nav`
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 25px;
   position: relative;
   overflow: hidden;
   text-align: left;
@@ -32,9 +32,8 @@ const NavigationWrapper = styled.nav`
   h1,
   a {
     color: #000;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Hind', sans-serif;
     font-weight: 400;
-    margin: 0 8px;
     text-decoration: none;
     transition: .3s all ease;
 
@@ -47,9 +46,17 @@ const NavigationWrapper = styled.nav`
     }
   }
 
+  a {
+    margin: 0 8px;
+  }
+
   .title {
+    line-height: 18px;
+
     a {
       font-size: 18px;
+      font-weight: 500;
+      line-height: 18px;
 
       @media ( max-width: 520px ) {
         padding-bottom: 4px;
@@ -59,7 +66,8 @@ const NavigationWrapper = styled.nav`
   }
 
   .link {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 16px;
 
     @media ( max-width: 520px ) {
       padding: 2px 0;
@@ -123,9 +131,10 @@ const OptionsWrapper = styled.section`
   span {
     color: #000;
     cursor: pointer;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Hind', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    line-height: 14px;
     padding-left: 35px;
     padding-right: 25px;
     text-transform: uppercase;
@@ -165,7 +174,7 @@ const Navigation = props => {
       isOpened={ open }
     >
       <h1 className="title" onClick={ () => setActive( '/' ) }>
-        <Link to="/">
+        <Link to="/main">
           { 'Lucas Alves Costa' }
         </Link>
       </h1>

@@ -2,15 +2,14 @@ import React, { useContext, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { I18nContext } from '../../i18n/index'
+import Back from '../Back'
 
 const ExhibitionWrapper = styled.div`
   left: 0;
   margin: auto;
-  max-width: 60%;
   position: absolute;
   right: 0;
-  text-align: center;
-  top: 100px;
+  top: 130px;
 
   @media (max-width: 520px) {
     position: initial;
@@ -18,24 +17,44 @@ const ExhibitionWrapper = styled.div`
   }
 
   .title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
     font-weight: 300;
-    padding-bottom: 40px; 
+    margin: auto;
+    max-width: 60%;
+    padding-bottom: 30px; 
+    text-align: left;
+
+    
+    @media (max-width: 1024px) {
+      max-width: 80%;
+    }
 
     @media (max-width: 520px) {
-      font-size: 18px;
+      max-width: 98%;
       padding-top: 40px;
     }
   }
-
+  
   .text {
-    text-align: left;
+    margin: auto;
+    max-width: 60%;
+    text-align: right;
+
+    @media (max-width: 1024px) {
+      max-width: 80%;
+    }
+
+    @media (max-width: 520px) {
+      max-width: 98%;
+    }
 
     &__paragraph {
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 16px;
+      font-family: 'Hind', sans-serif;
+      font-size: 14px;
       font-weight: 300;
+      line-height: 16px;
+      margin: 10px 0px;
       text-align: left;
   
       @media (max-width: 520px) {
@@ -45,26 +64,41 @@ const ExhibitionWrapper = styled.div`
 
     &__pressRelease {
       padding-top: 10px;
+      text-align: right;
 
       a {
         color: #6278DC;
-        text-align: left;
+        font-family: 'Hind', sans-serif;  
+        font-size: 14px;
         text-decoration: none;
         transition: all .3s ease;
 
         &:hover {
-          color: #6278FF;
+          color: #51E8E3;
         }
       }
     }
   }
 
+  .image_wrapper {
+    @media (min-width: 1024px) {
+      min-height: 400px;
+    }
+  }
+
   .images {
+    margin: auto;
+    max-width: 60%;
     padding-bottom: 120px;
     padding-top: 30px;
     width: 100%;
 
+    @media (max-width: 1024px) {
+      max-width: 80%;
+    }
+
     @media (max-width: 520px) {
+      max-width: 98%;
       padding-top: 0;
     }
 
@@ -111,7 +145,7 @@ function Exhibition (props) {
   })
 
   const Image = ({ image }) => (
-    <div>
+    <div className="image_wrapper">
       <LazyLoadImage
         alt={image.alt}
         src={require(`../../assets/exhibitions/${image.src}`)} // use normal <img> attributes as props
@@ -138,7 +172,7 @@ function Exhibition (props) {
           {translate(props.show.paragraph4)}
         </p>
         <p className="text__pressRelease">
-          <a href={ `https://palacio.xyz/exhibitions/${props.show.pressRelase}` }>
+          <a href={ `https://palacio.xyz/exhibitions/${props.show.pressRelease}` } target="_blank">
             {translate('pressRelease')}
           </a>
         </p>
@@ -150,6 +184,7 @@ function Exhibition (props) {
           ) )
         }
       </div>
+      <Back route="/exhibitions" />
     </ExhibitionWrapper>
   )
 }
