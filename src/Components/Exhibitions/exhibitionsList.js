@@ -1,6 +1,6 @@
 export const exhibitionsList = [
   {
-    image: 'exhibitions/florestaDia.jpg',
+    image: 'exhibitions/Lucas-Alves-Costa-Um-Lugar-Para-Estar-2019.png',
     alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
     name: 'Um lugar para estar, 2019',
     paragraph1: 'lugarp1',
@@ -78,12 +78,13 @@ export const exhibitionsList = [
     ]
   },
   {
-    image: 'exhibitions/mundoAberto1.png',
+    image: 'exhibitions/Lucas-Alves-Costa-Mundo-Aberto-2018.png',
     alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
     name: 'Mundo Aberto, 2018',
     paragraph1: 'mundoAberto1',
     paragraph2: 'mundoAberto2',
     paragraph3: 'mundoAberto3',
+    paragraph4: 'mundoAberto4',
     period: '2018',
     route: 'mundo-aberto',
     pressRelease: 'mundo-aberto',
@@ -139,7 +140,7 @@ export const exhibitionsList = [
     ]
   },
   {
-    image: 'exhibitions/paraiso1.png',
+    image: 'exhibitions/Lucas-Alves-Costa-Paraiso-Tropical-2017.png',
     alt: 'Paraíso Tropical, 2017. Lucas Alves Costa - Galeria Palácio',
     name: 'Paraíso Tropical, 2017',
     paragraph1: 'tropical1',
