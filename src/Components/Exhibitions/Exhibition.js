@@ -131,15 +131,15 @@ function Exhibition (props) {
     .replace(/Paraíso Tropical/g, `<i>Paraíso Tropical</i>`)
     .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
     thirdParagraph.current.innerHTML = thirdParagraph.current.innerHTML
-    .replace(/Mata Atlântica/g, `<i>Mata Atlântica</i>`)
     .replace(/Mata Atlântica \(Digital\)/g, `<i>Mata Atlântica (Digital)</i>`)
+    .replace(/Mata Atlântica/g, `<i>Mata Atlântica</i>`)
     .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
-    .replace(/A Superfície de Mundo Aberto/g, `<i>A Superfície de Mundo Aberto</i>`)
+    .replace(/Superfície de Mundo Aberto/g, `<i>Superfície de Mundo Aberto</i>`)
     .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
     .replace(/Terreno/g, `<i>Terreno</i>`)
     .replace(/Visão Aérea de Mundo Aberto/g, `<i>Visão Aérea de Mundo Aberto</i>`)
     fourthParagraph.current.innerHTML = fourthParagraph.current.innerHTML
-    .replace(/A incidência de luz em um ambiente virtual/g, `<i>A incidência de luz em um ambiente virtual</i>`)
+    .replace(/Incidência de luz em um ambiente virtual/g, `<i>Incidência de luz em um ambiente virtual</i>`)
     .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
     .replace(/Visão Aérea de Mundo Aberto/g, `<i>Visão Aérea de Mundo Aberto</i>`)
     .replace(/A Superfície de Mundo Aberto/g, `<i>A Superfície de Mundo Aberto</i>`)
