@@ -10,6 +10,12 @@ export const exhibitionsList = [
     period: '2019',
     route: 'um-lugar-para-estar',
     pressRelease: 'um-lugar-para-estar',
+    video1: 'https://vimeo.com/368412293',
+    video1image: {
+      alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
+      class: 'videoImg',
+      src:'lugar/Um-lugar-para-estar-2018-2019-Video-Lucas-Alves-Costa-Screenshot-(3)-All-Rights-Reserved.png'
+    },  
     images: [
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',

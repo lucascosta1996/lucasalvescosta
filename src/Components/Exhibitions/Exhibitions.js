@@ -8,8 +8,6 @@ const ExhibitionsWrapper = styled.div`
 
 function Exhibitions (props) {
 
-  useEffect(() => window.scrollTo(0, 0));
-
   return (
     <ExhibitionsWrapper>
       <ExhibitionsRoutes />

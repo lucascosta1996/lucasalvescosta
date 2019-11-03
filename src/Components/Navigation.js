@@ -175,7 +175,7 @@ const Navigation = props => {
     <NavigationWrapper
       isOpened={ open }
     >
-      <h1 className="title" onClick={ () => setActive( '/' ) }>
+      <h1 className="title" onClick={ () => { setActive( '/' ); () => window.scrollTo(0, 0); } }>
         <Link to="/main">
           { 'Lucas Alves Costa' }
         </Link>
@@ -184,14 +184,14 @@ const Navigation = props => {
         <Link
           to="/exhibitions"
           className={ `link ${ isActive( 'exhibitions' ) ? 'active' : '' }` }
-          onClick={ () => { setActive( 'exhibitions' ); setOpen( false ); } }
+          onClick={ () => { setActive( 'exhibitions' ); setOpen( false ); () => window.scrollTo(0, 0); } }
         >
           { translate('exhibitions') }
         </Link>
         <Link
           to="/contact"
           className={ `link ${isActive( 'contact' ) ? 'active' : ''}` }
-          onClick={ () => { setActive( 'contact' ); setOpen( false ); } }
+          onClick={ () => { setActive( 'contact' ); setOpen( false ); () => window.scrollTo(0, 0); } }
         >
           { translate('contact') }
         </Link>

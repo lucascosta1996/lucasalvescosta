@@ -1,8 +1,11 @@
-import React, { useContext, useEffect, useRef } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import ReactPlayer from 'react-player'
 import { I18nContext } from '../../i18n/index'
+import { isMobile } from '../../helpers/helpers'
 import Back from '../Back'
+import play from '../../assets/icons/play_icon.png'
 
 const ExhibitionWrapper = styled.div`
   left: 0;
@@ -86,6 +89,34 @@ const ExhibitionWrapper = styled.div`
     }
   }
 
+  .videoImg {
+    position: relative;
+  }
+
+  .video1 {
+    padding-top: 20px!important;
+  }
+
+  .play-icon {
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    transition: .3s ease;
+    width: 80px;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    @media (max-width: 520px) {
+      width: 40px;
+    }
+  }
+
   .images {
     margin: auto;
     max-width: 60%;
@@ -115,12 +146,13 @@ const ExhibitionWrapper = styled.div`
 
 function Exhibition (props) {
   const { translate } = useContext(I18nContext)
+  const [ showVideo1, setShowVideo1 ] = useState(false)
+  const video1Ref = useRef()
   const firstParagraph = useRef()
   const secondParagraph = useRef()
   const thirdParagraph = useRef()
   const fourthParagraph = useRef()
   useEffect(() => {
-    window.scrollTo(0, 0)
     firstParagraph.current.innerHTML = firstParagraph.current.innerHTML
     .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
     .replace(/Paraíso Tropical/g, `<i>Paraíso Tropical</i>`)
@@ -146,12 +178,20 @@ function Exhibition (props) {
     .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
   })
 
+  const video1RefScroll = (ref) => {
+    window.scrollTo(0, ref.current.offsetTop) 
+    setShowVideo1(true)
+  }
+
   const Image = ({ image }) => (
-    <div className="image_wrapper">
+    <div className={`${image.class ? image.class : 'image_wrapper'}`}>
       <LazyLoadImage
         alt={image.alt}
         src={require(`../../assets/exhibitions/${image.src}`)} // use normal <img> attributes as props
       />
+      {
+        image.class && <img className="play-icon" src={ play } />
+      }
     </div>
   )
 
@@ -180,6 +220,31 @@ function Exhibition (props) {
         </p>
       </section>
       <div className="images">
+      <div ref={video1Ref}>
+        {
+          props.show.video1 && (
+            !showVideo1 ? (
+              <div className="video1" onClick={() => video1RefScroll(video1Ref)}>
+                <Image image={ props.show.video1image } />
+              </div>
+            ) : (
+              <div className="video1">
+                <ReactPlayer
+                  key="1"
+                  id="1"
+                  url={props.show.video1}
+                  playing
+                  controls
+                  muted
+                  quality="1080p"
+                  width='100%'
+                  height={isMobile() ? '170px' : '512px'}
+                />
+              </div>
+            )
+          )
+        }
+        </div>
         {
           props.show.images.map( item => (
             <Image image={ item } />

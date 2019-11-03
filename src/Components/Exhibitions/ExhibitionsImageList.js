@@ -130,7 +130,7 @@ function ExhibitionsImagesList (props) {
       <ExhibitionsImagesWrapper>
         {
           exhibitionsList.map( item => (
-            <div className="showLink">
+            <div className="showLink" onClick={() =>  window.scrollTo(0, 0)}>
               <Link
                 className="show"
                 to={`/exhibitions/${item.route}`}
