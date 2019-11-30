@@ -152,15 +152,16 @@ function Exhibition (props) {
   const secondParagraph = useRef()
   const thirdParagraph = useRef()
   const fourthParagraph = useRef()
+  const fifthParagraph = useRef()
   useEffect(() => {
     firstParagraph.current.innerHTML = firstParagraph.current.innerHTML
     .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
-    .replace(/Paraíso Tropical/g, `<i>Paraíso Tropical</i>`)
+    .replace(/Paraíso/g, `<i>Paraíso</i>`)
     .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
     secondParagraph.current.innerHTML = secondParagraph.current.innerHTML
     .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
     .replace(/Mata Atlântica/g, `<i>Mata Atlântica</i>`)
-    .replace(/Paraíso Tropical/g, `<i>Paraíso Tropical</i>`)
+    .replace(/Paraíso/g, `<i>Paraíso</i>`)
     .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
     thirdParagraph.current.innerHTML = thirdParagraph.current.innerHTML
     .replace(/Mata Atlântica \(Digital\)/g, `<i>Mata Atlântica (Digital)</i>`)
@@ -169,8 +170,16 @@ function Exhibition (props) {
     .replace(/Superfície de Mundo Aberto/g, `<i>Superfície de Mundo Aberto</i>`)
     .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
     .replace(/Terreno/g, `<i>Terreno</i>`)
+    .replace(/Paraíso/g, `<i>Paraíso</i>`)
     .replace(/Visão Aérea de Mundo Aberto/g, `<i>Visão Aérea de Mundo Aberto</i>`)
     fourthParagraph.current.innerHTML = fourthParagraph.current.innerHTML
+    .replace(/Incidência de luz em um ambiente virtual/g, `<i>Incidência de luz em um ambiente virtual</i>`)
+    .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
+    .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
+    .replace(/Terreno/g, `<i>Terreno</i>`)
+    .replace(/Mata Atlântica \(Digital\)/g, `<i>Mata Atlântica (Digital)</i>`)
+    .replace(/Mata Atlântica/g, `<i>Mata Atlântica</i>`)
+    fifthParagraph.current.innerHTML = fifthParagraph.current.innerHTML
     .replace(/Incidência de luz em um ambiente virtual/g, `<i>Incidência de luz em um ambiente virtual</i>`)
     .replace(/Um lugar para estar/g, `<i>Um lugar para estar</i>`)
     .replace(/Visão Aérea de Mundo Aberto/g, `<i>Visão Aérea de Mundo Aberto</i>`)
@@ -212,6 +221,9 @@ function Exhibition (props) {
         </p>
         <p className="text__paragraph" ref={ fourthParagraph }>
           {translate(props.show.paragraph4)}
+        </p>
+        <p className="text__paragraph" ref={ fifthParagraph }>
+          {translate(props.show.paragraph5)}
         </p>
         <p className="text__pressRelease">
           <a href={ `https://palacio.xyz/exhibitions/${props.show.pressRelease}` } target="_blank">
