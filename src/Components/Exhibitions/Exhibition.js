@@ -185,6 +185,7 @@ function Exhibition (props) {
     .replace(/Visão Aérea de Mundo Aberto/g, `<i>Visão Aérea de Mundo Aberto</i>`)
     .replace(/A Superfície de Mundo Aberto/g, `<i>A Superfície de Mundo Aberto</i>`)
     .replace(/Mundo Aberto/g, `<i>Mundo Aberto</i>`)
+    .replace(/Terreno/g, `<i>Terreno</i>`)
   })
 
   const video1RefScroll = (ref) => {

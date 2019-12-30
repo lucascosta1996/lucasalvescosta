@@ -91,8 +91,6 @@ export const exhibitionsList = [
     paragraph1: 'mundoAberto1',
     paragraph2: 'mundoAberto2',
     paragraph3: 'mundoAberto3',
-    paragraph4: 'mundoAberto4',
-    paragraph5: 'mundoAberto5',
     period: '2018',
     route: 'mundo-aberto',
     pressRelease: 'mundo-aberto',
@@ -123,27 +121,7 @@ export const exhibitionsList = [
       },
       {
         alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-VR-Experience-(2)-Galeria-Palácio.jpg'
-      },
-      {
-        alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
         src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-VR-Experience-(3)-Galeria-Palácio.jpg'
-      },
-      {
-        alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Superfície-de-Mundo-Aberto-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
-      },
-      {
-        alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Superfície-de-Mundo-Aberto-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
-      },
-      {
-        alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Visão-Aérea-de-Mundo-Aberto-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
-      },
-      {
-        alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Visão-Aérea-de-Mundo-Aberto-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
       }
     ]
   },
