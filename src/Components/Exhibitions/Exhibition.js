@@ -208,7 +208,7 @@ function Exhibition (props) {
   return (
     <ExhibitionWrapper>
       <h2 className="title">
-        {props.show.name}
+        {props.show.name}, {props.show.period}
       </h2>
       <section className="text">
         <p className="text__paragraph" ref={ firstParagraph }>

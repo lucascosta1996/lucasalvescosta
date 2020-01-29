@@ -2,7 +2,7 @@ export const exhibitionsList = [
   {
     image: 'exhibitions/Lucas-Alves-Costa-Um-Lugar-Para-Estar-2019.png',
     alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-    name: 'Um lugar para estar, 2019',
+    name: 'Um lugar para estar',
     paragraph1: 'lugarp1',
     paragraph2: 'lugarp2',
     paragraph3: 'lugarp3',
@@ -87,7 +87,7 @@ export const exhibitionsList = [
   {
     image: 'exhibitions/Lucas-Alves-Costa-Mundo-Aberto-2018.png',
     alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-    name: 'Mundo Aberto, 2018',
+    name: 'Mundo Aberto',
     paragraph1: 'mundoAberto1',
     paragraph2: 'mundoAberto2',
     paragraph3: 'mundoAberto3',
@@ -128,11 +128,10 @@ export const exhibitionsList = [
   {
     image: 'exhibitions/Lucas-Alves-Costa-Paraiso-2017.png',
     alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
-    name: 'Paraíso, 2017',
+    name: 'Paraíso',
     paragraph1: 'tropical1',
     paragraph2: 'tropical2',
     paragraph3: 'tropical3',
-    paragraph4: 'tropical4',
     period: '2017',
     route: 'paraiso',
     pressRelease: 'paraiso',
@@ -168,14 +167,6 @@ export const exhibitionsList = [
       {
         alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
         src: 'tropical/Mata-Atlântica-2017-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
-      },
-      {
-        alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
-        src: 'tropical/Mata-Atlântica-(Digital)-2017-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
-      },
-      {
-        alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
-        src: 'tropical/Mata-Atlântica-(Digital)-2017-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
       }
     ]
   }
