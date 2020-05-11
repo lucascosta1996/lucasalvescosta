@@ -7,7 +7,6 @@ export const exhibitionsList = [
     paragraph2: 'lugarp2',
     paragraph3: 'lugarp3',
     paragraph4: 'lugarp4',
-    paragraph5: 'lugarp5',
     period: '2019',
     route: 'um-lugar-para-estar',
     pressRelease: 'um-lugar-para-estar',
