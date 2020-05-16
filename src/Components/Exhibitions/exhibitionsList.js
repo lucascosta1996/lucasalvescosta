@@ -14,7 +14,7 @@ export const exhibitionsList = [
     video1image: {
       alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
       class: 'videoImg',
-      src:'lugar/Um-lugar-para-estar-2018-2019-Video-Lucas-Alves-Costa-Screenshot-(3)-All-Rights-Reserved.png'
+      src:'lugar/Um-lugar-para-estar-2018-2019-Video-Lucas-Alves-Costa-Screenshot-(3)-All-Rights-Reserved.jpg'
     },  
     images: [
       {
@@ -27,19 +27,19 @@ export const exhibitionsList = [
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(1)-All-Rights-Reserved.png'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(1)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(2)-All-Rights-Reserved.png'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(2)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(3)-All-Rights-Reserved.png'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(3)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(4)-All-Rights-Reserved.png'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Screenshot-(4)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
