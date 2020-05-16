@@ -27,6 +27,14 @@
 
     gtag('config', 'G-1KN7YST0PT');
   </script>
+  <script>
+    document.oncontextmenu = function (e) {
+      if (e.button == 2) {
+          e.preventDefault();
+          return false;
+      }
+    }
+  </script>
   <body>
     <div id="root"></div>
     <!--
