@@ -19,19 +19,11 @@ export const exhibitionsList = [
     images: [
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-VR-Experience-Galeria-Palácio-(1).jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
-      },
-      {
-        alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(3).jpg'
-      },
-      {
-        alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(4).jpg'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-VR-Experience-Galeria-Palácio-(3).jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
@@ -51,15 +43,19 @@ export const exhibitionsList = [
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-VR-Experience-Galeria-Palácio-(1).jpg'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-VR-Experience-Galeria-Palácio-(2).jpg'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
-        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-VR-Experience-Galeria-Palácio-(3).jpg'
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(3).jpg'
+      },
+      {
+        alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
+        src: 'lugar/Um-lugar-para-estar-2018-2019-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(4).jpg'
       },
       {
         alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
@@ -94,13 +90,14 @@ export const exhibitionsList = [
     route: 'mundo-aberto',
     pressRelease: 'mundo-aberto',
     images: [
+      
       {
         alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
+        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-VR-Experience-(1)-Galeria-Palácio.jpg'
       },
       {
         alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
+        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-VR-Experience-(3)-Galeria-Palácio.jpg'
       },
       {
         alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
@@ -116,11 +113,19 @@ export const exhibitionsList = [
       },
       {
         alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-VR-Experience-(1)-Galeria-Palácio.jpg'
+        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
       },
       {
         alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
-        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-VR-Experience-(3)-Galeria-Palácio.jpg'
+        src: 'mundo/Mundo-Aberto-2017-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
+      },
+      {
+        alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
+        src: 'mundo/Visão-Aérea-de-Mundo-Aberto-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(1).jpg'
+      },
+      {
+        alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
+        src: 'mundo/Visão-Aérea-de-Mundo-Aberto-2018-Lucas-Alves-Costa-Installation-View-Galeria-Palácio-(2).jpg'
       }
     ]
   },
