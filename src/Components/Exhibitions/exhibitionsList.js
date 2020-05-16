@@ -1,6 +1,6 @@
 export const exhibitionsList = [
   {
-    image: 'exhibitions/Lucas-Alves-Costa-Um-Lugar-Para-Estar-2019.png',
+    image: 'exhibitions/Lucas-Alves-Costa-Um-Lugar-Para-Estar-2019.jpg',
     alt: 'Um lugar para estar, 2019. Lucas Alves Costa - Galeria Palácio',
     name: 'Um lugar para estar',
     paragraph1: 'lugarp1',
@@ -80,7 +80,7 @@ export const exhibitionsList = [
     ]
   },
   {
-    image: 'exhibitions/Lucas-Alves-Costa-Mundo-Aberto-2018.png',
+    image: 'exhibitions/Lucas-Alves-Costa-Mundo-Aberto-2018.jpg',
     alt: 'Mundo Aberto, 2018. Lucas Alves Costa - Galeria Palácio',
     name: 'Mundo Aberto',
     paragraph1: 'mundoAberto1',
@@ -130,7 +130,7 @@ export const exhibitionsList = [
     ]
   },
   {
-    image: 'exhibitions/Lucas-Alves-Costa-Paraiso-2017.png',
+    image: 'exhibitions/Lucas-Alves-Costa-Paraiso-2017.jpg',
     alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
     name: 'Paraíso',
     paragraph1: 'tropical1',
@@ -150,19 +150,19 @@ export const exhibitionsList = [
       },
       {
         alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
-        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(1)-All-Rights-Reserved.png'
+        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(1)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
-        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(2)-All-Rights-Reserved.png'
+        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(2)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
-        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(3)-All-Rights-Reserved.png'
+        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(3)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
-        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(4)-All-Rights-Reserved.png'
+        src: 'tropical/Paraíso-2017-Lucas-Alves-Costa-Screenshot-(4)-All-Rights-Reserved.jpg'
       },
       {
         alt: 'Paraíso, 2017. Lucas Alves Costa - Galeria Palácio',
