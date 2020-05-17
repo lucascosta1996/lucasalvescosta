@@ -176,7 +176,7 @@ const Navigation = props => {
       isOpened={ open }
     >
       <h1 className="title" onClick={ () => { setActive( '/' ); () => window.scrollTo(0, 0); } }>
-        <Link to="/main">
+        <Link to="/">
           { 'Lucas Alves Costa' }
         </Link>
       </h1>
